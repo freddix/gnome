@@ -19,8 +19,10 @@ Requires:	eog
 Requires:	epiphany
 Requires:	epiphany-extensions
 Requires:	evince
+Requires:	evolution
 Requires:	file-roller
 Requires:	folks
+Requires:	fonts-OTF-Cantarell
 Requires:	fonts-OTF-Cantarell
 Requires:	gcalctool
 Requires:	gdm
@@ -33,10 +35,12 @@ Requires:	gnome-color-manager
 Requires:	gnome-contacts
 Requires:	gnome-contacts-shell-search-provider
 Requires:	gnome-control-center
+Requires:	gnome-desktop
 Requires:	gnome-dictionary
 Requires:	gnome-disk-utility
 Requires:	gnome-documents
 Requires:	gnome-documents-shell-search-provider
+Requires:	gnome-font-viewer
 Requires:	gnome-icon-theme
 Requires:	gnome-keyring
 Requires:	gnome-menus
@@ -52,6 +56,7 @@ Requires:	gnome-system-log
 Requires:	gnome-terminal
 Requires:	gnome-themes-standard
 Requires:	gnome-tweak-tool
+Requires:	gnome-user-docs
 Requires:	grilo-plugins
 Requires:	gsettings-desktop-schemas
 Requires:	gucharmap
@@ -63,6 +68,7 @@ Requires:	gvfs-fuse
 Requires:	gvfs-gphoto2
 Requires:	gvfs-smb
 Requires:	libcanberra-runtime
+Requires:	libgnomekbd-runtime
 Requires:	libproxy-gnome3
 Requires:	libsocialweb
 Requires:	metacity
@@ -84,6 +90,7 @@ Requires:	seahorse
 Requires:	shared-color-profiles
 Requires:	simple-scan
 Requires:	sound-juicer
+Requires:	sushi
 Requires:	telepathy-service
 Requires:	totem
 Requires:	totem-plugins
