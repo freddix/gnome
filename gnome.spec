@@ -23,7 +23,6 @@ Requires:	evolution
 Requires:	file-roller
 Requires:	folks
 Requires:	fonts-OTF-Cantarell
-Requires:	fonts-OTF-Cantarell
 Requires:	gcalctool
 Requires:	gdm
 Requires:	gedit
