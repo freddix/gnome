@@ -1,11 +1,12 @@
 Summary:	GNOME desktop
 Name:		gnome
-Version:	3.8.0
-Release:	0.1
+Version:	3.10.0
+Release:	1
 License:	GPL v2
 Group:		X11/Applications
 Requires:	accountsservice
 Requires:	baobab
+Requires:	bijiben
 Requires:	brasero
 Requires:	browser-plugin-gnome-shell
 Requires:	browser-plugin-totem
@@ -23,12 +24,16 @@ Requires:	file-roller
 Requires:	folks
 Requires:	fonts-OTF-Cantarell
 Requires:	gcalctool
+Requires:	gdk-pixbuf-rsvg
 Requires:	gdm
 Requires:	gedit
+Requires:	gedit-plugin-zeitgeist
+Requires:	gedit-plugins-python3
 Requires:	gjs
 Requires:	glib-networking
 Requires:	gnome-backgrounds
 Requires:	gnome-bluetooth
+Requires:	gnome-clocks
 Requires:	gnome-color-manager
 Requires:	gnome-contacts
 Requires:	gnome-contacts-shell-search-provider
@@ -41,8 +46,11 @@ Requires:	gnome-documents-shell-search-provider
 Requires:	gnome-font-viewer
 Requires:	gnome-icon-theme
 Requires:	gnome-keyring
+Requires:	gnome-maps
 Requires:	gnome-menus
+Requires:	gnome-music
 Requires:	gnome-online-accounts
+Requires:	gnome-photos
 Requires:	gnome-power-manager
 Requires:	gnome-screenshot
 Requires:	gnome-session
@@ -54,6 +62,7 @@ Requires:	gnome-terminal
 Requires:	gnome-themes-standard
 Requires:	gnome-tweak-tool
 Requires:	gnome-user-docs
+Requires:	gnome-weather
 Requires:	grilo-plugins
 Requires:	gsettings-desktop-schemas
 Requires:	gucharmap
@@ -81,12 +90,15 @@ Requires:	polkit-gnome
 Requires:	pulseaudio
 Requires:	seahorse
 Requires:	shared-color-profiles
+Requires:	seahorse-shell-search-provider
 Requires:	simple-scan
+Requires:	seahorse-shell-search-provider
 Requires:	sushi
 Requires:	telepathy-service
 Requires:	totem
 Requires:	totem-plugins
 Requires:	tracker
+Requires:	vinagre
 Requires:	yelp
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
