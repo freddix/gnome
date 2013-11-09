@@ -1,7 +1,7 @@
 Summary:	GNOME desktop
 Name:		gnome
 Version:	3.10.0
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		X11/Applications
 Requires:	accountsservice
@@ -68,9 +68,11 @@ Requires:	gsettings-desktop-schemas
 Requires:	gucharmap
 Requires:	gvfs
 Requires:	gvfs-archive
+Requires:	gvfs-backend-recent-files
 Requires:	gvfs-cdio
 Requires:	gvfs-dnssd
 Requires:	gvfs-fuse
+Requires:	gvfs-gnome-online-accounts
 Requires:	gvfs-mtp
 Requires:	gvfs-smb
 Requires:	libcanberra-runtime
