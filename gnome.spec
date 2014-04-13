@@ -1,72 +1,73 @@
 Summary:	GNOME desktop
 Name:		gnome
-Version:	3.10.0
-Release:	2
+Version:	3.12.0
+Release:	1
 License:	GPL v2
 Group:		X11/Applications
-Requires:	accountsservice
-Requires:	baobab
-Requires:	bijiben
+Requires:	accountsservice >= 0.6.37
+Requires:	baobab >= 3.12.0
+Requires:	bijiben >= 3.12.0
 Requires:	brasero
-Requires:	browser-plugin-gnome-shell
-Requires:	browser-plugin-totem
+Requires:	browser-plugin-gnome-shell >= 3.12.0
+Requires:	browser-plugin-totem >= 3.12.0
 Requires:	caribou
-Requires:	cheese
+Requires:	cheese >= 3.12.0
 Requires:	colord
-Requires:	dconf
+Requires:	dconf >= 0.20.0
 Requires:	dconf-editor
-Requires:	empathy
-Requires:	eog
-Requires:	epiphany
-Requires:	evince
-Requires:	evolution
-Requires:	file-roller
+Requires:	empathy >= 3.12.0
+Requires:	eog >= 3.12.0
+Requires:	epiphany >= 3.12.0
+Requires:	evince >= 3.12.0
+Requires:	evolution >= 3.12.0
+Requires:	file-roller >= 3.12.0
 Requires:	folks
 Requires:	fonts-OTF-Cantarell
-Requires:	gcalctool
-Requires:	gdk-pixbuf-rsvg
-Requires:	gdm
-Requires:	gedit
+Requires:	gnome-calculator >= 3.12.0
+Requires:	gdk-pixbuf-rsvg >= 2.30.7
+Requires:	gdm >= 3.12.0
+Requires:	gedit >= 3.12.0
 Requires:	gedit-plugin-zeitgeist
 Requires:	gedit-plugins-python3
-Requires:	gjs
-Requires:	glib-networking
-Requires:	gnome-backgrounds
-Requires:	gnome-bluetooth
-Requires:	gnome-clocks
-Requires:	gnome-color-manager
-Requires:	gnome-contacts
+Requires:	gjs >= 1.40.0
+Requires:	glib-networking >= 2.40.0
+Requires:	gnome-backgrounds >= 3.12.0
+Requires:	gnome-bluetooth >= 3.12.0
+Requires:	gnome-clocks >= 3.12.0
+Requires:	gnome-color-manager >= 3.12.0
+Requires:	gnome-contacts >= 3.12.0
 Requires:	gnome-contacts-shell-search-provider
-Requires:	gnome-control-center
-Requires:	gnome-desktop
+Requires:	gnome-control-center >= 3.12.0
+Requires:	gnome-desktop >= 3.12.0
 Requires:	gnome-dictionary
 Requires:	gnome-disk-utility
-Requires:	gnome-documents
+Requires:	gnome-documents >= 3.12.0
 Requires:	gnome-documents-shell-search-provider
-Requires:	gnome-font-viewer
-Requires:	gnome-icon-theme
-Requires:	gnome-keyring
-Requires:	gnome-maps
-Requires:	gnome-menus
-Requires:	gnome-music
-Requires:	gnome-online-accounts
-Requires:	gnome-photos
-Requires:	gnome-power-manager
-Requires:	gnome-screenshot
-Requires:	gnome-session
-Requires:	gnome-settings-daemon
-Requires:	gnome-shell
-Requires:	gnome-shell-extensions
-Requires:	gnome-system-log
-Requires:	gnome-terminal
-Requires:	gnome-themes-standard
-Requires:	gnome-tweak-tool
-Requires:	gnome-user-docs
-Requires:	gnome-weather
+Requires:	gnome-font-viewer >= 3.12.0
+Requires:	gnome-icon-theme >= 3.12.0
+Requires:	gnome-keyring >= 3.12.0
+Requires:	gnome-maps >= 3.12.0
+Requires:	gnome-menus >= 3.10.0
+Requires:	gnome-music >= 3.12.0
+Requires:	gnome-online-accounts >= 3.12.0
+Requires:	gnome-photos >= 3.12.0
+Requires:	gnome-power-manager >= 3.12.0
+Requires:	gnome-screenshot >= 3.12.0
+Requires:	gnome-session >= 3.12.0
+Requires:	gnome-settings-daemon >= 3.12.0
+Requires:	gnome-shell >= 3.12.0
+Requires:	gnome-shell-extensions >= 3.12.0
+Requires:	gnome-logs
+Requires:	gnome-terminal >= 3.12.0
+Requires:	gnome-terminal-shell-search-provider
+Requires:	gnome-themes-standard >= 3.12.0
+Requires:	gnome-tweak-tool >= 3.12.0
+Requires:	gnome-user-docs  >= 3.12.0
+Requires:	gnome-weather >= 3.12.0
 Requires:	grilo-plugins
-Requires:	gsettings-desktop-schemas
-Requires:	gucharmap
-Requires:	gvfs
+Requires:	gsettings-desktop-schemas >= 3.12.0
+Requires:	gucharmap >= 3.12.0
+Requires:	gvfs >= 1.20.0
 Requires:	gvfs-archive
 Requires:	gvfs-backend-recent-files
 Requires:	gvfs-cdio
@@ -79,29 +80,30 @@ Requires:	libcanberra-runtime
 Requires:	libgnomekbd-runtime
 Requires:	libproxy-gnome3
 Requires:	libsocialweb
-Requires:	mutter
-Requires:	nautilus
+Requires:	mutter >= 3.12.0
+Requires:	nautilus >= 3.12.0
 Requires:	nautilus-extension-brasero
 Requires:	nautilus-extension-evince
 Requires:	nautilus-extension-file-roller
+Requires:	nautilus-extension-terminal
 Requires:	nautilus-extension-totem
 Requires:	nautilus-extension-tracker
 Requires:	nautilus-shell-search-provider
 Requires:	notification-daemon
-Requires:	polkit-gnome
+Requires:	polari
 Requires:	pulseaudio
-Requires:	seahorse
+Requires:	seahorse >= 3.12.0
+Requires:	seahorse-shell-search-provider
+Requires:	seahorse-shell-search-provider
 Requires:	shared-color-profiles
-Requires:	seahorse-shell-search-provider
-Requires:	simple-scan
-Requires:	seahorse-shell-search-provider
+Requires:	simple-scan >= 3.12.0
 Requires:	sushi
 Requires:	telepathy-service
-Requires:	totem
+Requires:	totem >= 3.12.0
 Requires:	totem-plugins
-Requires:	tracker
-Requires:	vinagre
-Requires:	yelp
+Requires:	tracker >= 1.0.0
+Requires:	vinagre >= 3.12.0
+Requires:	yelp >= 3.12.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
