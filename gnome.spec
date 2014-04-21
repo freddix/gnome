@@ -1,7 +1,7 @@
 Summary:	GNOME desktop
 Name:		gnome
 Version:	3.12.0
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		X11/Applications
 Requires:	accountsservice >= 0.6.37
@@ -46,6 +46,7 @@ Requires:	gnome-documents-shell-search-provider
 Requires:	gnome-font-viewer >= 3.12.0
 Requires:	gnome-icon-theme >= 3.12.0
 Requires:	gnome-keyring >= 3.12.0
+Requires:	gnome-logs
 Requires:	gnome-maps >= 3.12.0
 Requires:	gnome-menus >= 3.10.0
 Requires:	gnome-music >= 3.12.0
@@ -57,7 +58,7 @@ Requires:	gnome-session >= 3.12.0
 Requires:	gnome-settings-daemon >= 3.12.0
 Requires:	gnome-shell >= 3.12.0
 Requires:	gnome-shell-extensions >= 3.12.0
-Requires:	gnome-logs
+Requires:	gnome-system-monitor >= 3.12.0
 Requires:	gnome-terminal >= 3.12.0
 Requires:	gnome-terminal-shell-search-provider
 Requires:	gnome-themes-standard >= 3.12.0
