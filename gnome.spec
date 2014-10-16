@@ -1,7 +1,7 @@
 Summary:	GNOME desktop
 Name:		gnome
 Version:	3.14.0
-Release:	2
+Release:	3
 License:	GPL v2
 Group:		X11/Applications
 Requires:	accountsservice >= 0.6.38
